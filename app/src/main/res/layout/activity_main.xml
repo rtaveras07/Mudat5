@@ -27,6 +27,7 @@
          android:layout_height="wrap_content"
          android:text="Aceptar"
          android:onClick="accion"
+
          />
 
  </LinearLayout>
