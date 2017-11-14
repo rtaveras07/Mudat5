@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void accion(View view) {
-        EditText Texto =(EditText) findViewById(R.id.txtNombre);
+        EditText Texto =(EditText) findViewById(R.id.txtnombre);
         Toast.makeText(this, "Saludos:"+Texto.getText(), Toast.LENGTH_SHORT).show();
 
         Intent intent=new Intent(this,Visualizar.class);
